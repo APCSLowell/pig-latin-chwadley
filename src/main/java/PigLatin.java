@@ -44,7 +44,7 @@ public class PigLatin {
 	    } else if (s.substring(0,2).equals("qu")) {
 		return s.substring(2)+"quay";
 	    } else if (a == 0) {
-		return s + "ay";
+		return s + "way";
 	    } else {
 		return s.substring(a)+s.substring(0,a)+"ay";
 	    }
