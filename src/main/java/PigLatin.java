@@ -42,7 +42,7 @@ public class PigLatin {
 	    if (a == -1) {
 		return s + "ay";
 	    } else if (a == 0) {
-		return s + "hay"
+		return s + "hay";
 	    } else {
 		return s.substring(a)+s.substring(0,a)+"ay";
 	    }
