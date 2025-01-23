@@ -41,8 +41,10 @@ public class PigLatin {
 	    int a = findFirstVowel(s);
 	    if (a == -1) {
 		return s + "ay";
+	    } else if (s.substring(0,2).equals("qu")) {
+		return s.substring(2)+"quay";
 	    } else if (a == 0) {
-		return s + "hay";
+		return s + "ay";
 	    } else {
 		return s.substring(a)+s.substring(0,a)+"ay";
 	    }
